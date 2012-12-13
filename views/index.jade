@@ -1,5 +1,96 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  #content-full
+    #home-top
+    #hr
+      #hr-center
+        #intro
+          .center-highlight
+            .container
+              #featured
+                span#left-shadow
+                span#right-shadow
+                #slides
+                  .slide
+                    img(src='/images/iStock_000006715814Medium-1932914_960x447.jpg', alt='Nos clients')
+                    .description
+                      .outer-content
+                        .inner-content
+                          h2.title
+                            a(href='/clients') Nos clients
+                          p
+                            | Nous sommes fiers de compter ces organismes parmi nos clients.
+                            | Notre collaboration avec ces derniers est très stimulante et leur entière satisfaction est notre première préoccupation dans tous les mandats que nous entreprenons avec...
+                      .bottom
+                        a.readmore(href='/clients')
+                          span Plus
+                  .slide
+                    img(src='/images/iStock_000010112642Medium_hflip-1718043_960x447.jpg', alt='Notre philosophie')
+                    .description
+                      .outer-content
+                        .inner-content
+                          h2.title
+                            a(href='/philosophie') Notre philosophie
+                          p Nous visons la mise en place d’une coopérative de solidarité juste, équitable, transparente et démocratique qui appartient à ses membres i.e. “Un membre, un vote”.
+                      .bottom
+                        a.readmore(href='/philosophie')
+                          span Plus
+                  .slide
+                    img(src='/images/iStock_000014186302Medium-1678476_960x447.jpg', alt='Nos membres')
+                    .description
+                      .outer-content
+                        .inner-content
+                          h2.title
+                            a(href='/membres') Nos membres
+                          p Nos membres forment une équipe d’élite multidisciplinaire. Ils sont le coeur, l’esprit et la fierté de la coopérative.
+                      .bottom
+                        a.readmore(href='/membres')
+                          span Plus
+                #controllers-wrapper
+                  #controllers
+                    a#left-arrow(href='#') Précédent
+                    a.switch.active(href='#', rel='1') 1
+                    a.switch(href='#', rel='2') 2
+                    a.switch(href='#', rel='3') 3
+                    a#right-arrow(href='#') Suivant
+                  #controllers-right
+              #tagline
+                p(style='background: none; font-size: 30px; padding: 0;')
+                  | CODE3 développe des solutions web avec des outils à la fine pointe technologique.
+                span.quote2(style='background: none; font-size: 20px; padding-left: 0;')
+                  | L'equipe CODE3 se spécialise dans le développement coopératif de solutions d'affaires, dans l'accompagnement de développeurs professionnels et dans le conseil en entreprise dans le domaine des TI.
+              div
+                .et_quote.quote-center(style='font-size: 20px; line-height: 1.3em; padding-left: 35px; background: url(/DeepFocus/images/quote-left.png) no-repeat !important;')
+                  | CODE3 est une équipe qui s'intègre à l'entreprise pour développer des solutions agiles, intelligentes et adaptatives qui répondent à nos besoins.
+              p(style='text-align: right; font-style: italic; padding: 10px 0 40px 0;') - Marie-Frédérique Savard. Directrice générale, Plandaction.
+    .center-highlight
+      .container
+        .service(style='width: 255px;')
+          h3.hometitle Sherpas technologiques
+          p
+            | Nos sherpas partagent leur expertise technologique avec votre équipe afin de vous aider à mener à terme vos projets. Nous agissons en tant que guide, s'intégrant temporairement à votre équipe pour vous offrir des conseils sur le choix d'outils et d'approches, tout en identifiant les embûches potentielles dans votre projet.
+          a.small-button.smallblack(href='/services/sherpas')
+            span En savoir plus
+        .service(style='width: 255px;')
+          h3.hometitle Conseillers en TI
+          p
+            | L'équipe CODE3 peut aussi venir en aide directement dans votre entreprise. En utilisant notre expertise en TI, nous sommes en mesure de vous offrir une vaste gamme de services. Notre intervention en entreprise couvre la réalisation d'études d'amélioration des TI, la rédaction de plans de continuité des TI, des analyses en sécurité informatique, jusqu'à la proposition de solutions logicielles que nous pouvons adapter sur mesure et même déployer en mode infonuagique.
+          a.small-button.smallblack(href='/services/conseil')
+            span En savoir plus
+        .service(style='width: 255px;')
+          h3.hometitle Développement coopératif
+          p
+            | CODE3 se spécialise dans le développement coopératif de logiciels. Notre solution de développement coopératif consiste en la mise en commun des ressources de plusieurs entreprises, dans la création commune d'une solution qui sera adaptée pour chacun. Il s'agit d'une méthode novatrice permettant de partager les coûts monétaires et en temps d'experts de domaine tout en obtenant une solution parfaitement adaptée.
+          a.small-button.smallblack(href='/services/developpement')
+            span En savoir plus
+        .clear
+        h3.hometitle.recentworks Travaux récents
+        #portfolio-items.clearfix
+          .item
+            .item-image
+              img.portfolio(src='/images/Capture-écran-2012-03-14-à-16.08.27-161250_207x136.png', alt='Plandaction. Projet «Davantage»')
+              span.overlay
+              a.zoom-icon.fancybox(title='Plandaction. Projet «Davantage»', rel='gallery', href='/images/Capture-écran-2012-03-14-à-16.08.27.png') Agrandir
+          .clear
+          .clear

@@ -1,0 +1,53 @@
+extends layout
+
+block content
+  #content-full
+    #hr
+      #hr-center
+        #intro
+          .center-highlight
+            .container
+              #breadcrumbs
+                a(href='/') Accueil
+                span.raquo  » 
+                a(href='/services') Services
+                span.raquo  » 
+                | Sherpas technologiques
+    .center-highlight
+      .container
+        #full.clearfix
+          .entry.clearfix.post.full
+            h1.title
+              cufon.cufon.cufon-canvas(alt='Sherpas ', style='width: 115px; height: 36px;')
+                canvas(width='155', height='40')
+                cufontext Sherpas 
+              cufon.cufon.cufon-canvas(alt='technologiques', style='width: 195px; height: 36px;')
+                canvas(width='229', height='40')
+                cufontext technologiques
+            .clear
+            .one_half
+              p
+                | Nos sherpas partagent leur expertise technologique avec votre équipe afin de vous aider à mener à terme vos projets. Nous agissons en tant que guide, s’intégrant temporairement à votre équipe pour vous offrir des conseils sur le choix d’outils et d’approches, tout en identifiant les embûches potentielles dans votre projet.
+              h2(style='margin-top: 1em;') Bénéfices pour l’entreprise
+              p
+                | Votre équipe de travail connaît déjà votre domaine d’affaire et possède une connexion synergique au sein de votre entreprise. Grâce à notre service de sherpas technologiques, nous pouvons augmenter la productivité de votre équipe interne en partageant notre expertise technique. À l’aide d’apprentissages dirigés et personalisés pour votre projet, votre équipe pourra accélérer l’acquisition et la maîtrise de nouvelles technologies. La veille technologique étant un élément clé de CODE3, nous serons en mesure de vous guider pour vous montrer les forces et faiblesses de chaque approche, permettant à votre équipe de réaliser leur travail sans tomber dans de coûteux imprévus.
+            .one_half.last
+              p(style='position: relative;')
+                img.polaroid.absolute.transform1(src='/images/iStock_0000170078858_253x253.png', alt='')
+                img.polaroid.absolute.transform2(src='/images/iStock_000019293040_253x253.png', alt='')
+            .clear
+            h2(style='margin-top: 1em;') Comment nous procédons
+            p Nos membres sont des mordus des nouvelles technologies, possédant des formations universitaires formelles ainsi qu’une solide expérience en entreprise. Certains de nos membres étant professeurs ou chargés de cours, nous détenons des principes d’analyse formelle impartiale des technologies ainsi que la pédagogie nécessaire pour partager nos connaissances.
+            p Parmis les technologies qui nous sont très familières, nous avons :
+            ul
+              li Javascript, Node.js, Express, CoffeeScript, HTML5, CSS3, Stylus;
+              li Java, Spring, Hibernate, Groovy, Grails, Tomcat;
+              li PostgreSQL, Redis, MongoDB, MySQL.
+            p Notre service consiste concrètement en un programme sur mesure pour votre entreprise et votre projet et peut consister en :
+            ul
+              li des revues de code;
+              li du pair programming;
+              li du coaching;
+              li des présentations magistrales;
+              li des ateliers;
+              li de l’accompagnement technologique.

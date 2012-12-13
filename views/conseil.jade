@@ -1,0 +1,76 @@
+extends layout
+
+block content
+  #content-full
+    #hr
+      #hr-center
+        #intro
+          .center-highlight
+            .container
+              #breadcrumbs
+                a(href='/') Accueil
+                span.raquo  » 
+                a(href='/services') Services
+                span.raquo  » 
+                | Conseillers en TI
+    .center-highlight
+      .container
+        #full.clearfix
+         .entry.clearfix.post.full
+            h1.title
+              cufon.cufon.cufon-canvas(alt='Conseillers ', style='width: 147px; height: 36px;')
+                canvas(width='186', height='40')
+                cufontext Conseillers 
+              cufon.cufon.cufon-canvas(alt='en ', style='width: 40px; height: 36px;')
+                canvas(width='80', height='40')
+                cufontext en 
+              cufon.cufon.cufon-canvas(alt='TI', style='width: 25px; height: 36px;')
+                canvas(width='65', height='40')
+                cufontext TI
+            .clear
+            .one_half
+              p
+                | L’équipe CODE3 peut aussi venir en aide directement dans votre entreprise. En utilisant notre expertise en TI, nous sommes en mesure de vous offrir une vaste gamme de services. Notre intervention en entreprise couvre la réalisation d’études d’amélioration des TI, la rédaction de plans de continuité des TI, des analyses en sécurité informatique, jusqu’à la proposition de solutions logicielles que nous pouvons adapter sur mesure et même déployer en mode infonuagique.
+              h2(style='margin-top: 1em;') Bénéfices pour l’entreprise
+              p
+                | Nos conseillers en TI visent à trouver des solutions adaptées spécialement à votre entreprise. Si vous êtres une entreprise oeuvrant dans un domaine hautement règlementé, tel les assurances, nous sommes en mesure de vous aider à dresser un plan de continuité et des mesures de robustesse qui vous permettront d’atteindre les standards requis. Grâce à notre expertise en sécurité, sauvegardes et reprise des opérations, vous pourrez dormir sur vos deux oreilles sachant que vous êtes à l’abri de l’espionnage industriel et des désastres. Cependant, si vous être une petite entreprise cherchant à alléger ses coûts technologiques, à optimiser son processus d’affaires grâce à des solutions technologiques sans avoir à maintenir une coûteuse équipe de TI, nous pouvons vous offrir des conseils et adapter des solutions pour vos besoins.
+            .one_half.last
+              p(style='position: relative;')
+                img.polaroid.absolute.transform1(src='/images/iStock_000019076382_253x253.png', alt='')
+                img.polaroid.absolute.transform2(src='/images/iStock_000018676776_253x253.png', alt='')
+            .clear
+            div(style='margin-top: 40px;')
+              .et_quote.quote-center(style='font-size: 20px; line-height: 1.3em; padding-left: 35px; background: url(http://code3.ca/wp-content/themes/DeepFocus/images/quote-left.png) no-repeat !important;')
+                | Le FARCIQ a eu le privilège de travailler avec l’équipe jeune, dynamique et dévouée de CODE3, laquelle a été en mesure d’apporter des solutions simples et efficaces tout au long de notre collaboration.
+                br
+                | Toujours à l’écoute, CODE3 a su combler nos attentes, peu importe les défis qui leurs étaient présentés. Leur relation étroite avec le client, ainsi que les nombreux suivis sur l’état des travaux est un gage de leur implication. Sachez que cette expérience fût des plus agréables.
+            p(style='text-align: right; font-style: italic; padding-top: 10px;') Josée Mallette. Directrice service des sinistres, FARCIQ
+            div(style='margin-top: 40px;')
+              .et_quote.quote-center(style='font-size: 20px; line-height: 1.3em; padding-left: 35px; background: url(http://code3.ca/wp-content/themes/DeepFocus/images/quote-left.png) no-repeat !important;')
+                | D’un mandat simple de reprogrammation d’un outil de calcul, CODE3, avec sa compétence et sa créativité, a surpassé la simple exécution de calculs en nous développant un outil de travail pratique, convivial, performant et attrayant. Le cabinet est fier de pouvoir partager avec ses partenaires d’affaires Davantage qui démontre avec efficacité et brio différents programmes d’épargne-retraite. Pour Plandaction, CODE3 n’est pas une équipe de développement qui prétend avoir la réponse à tous nos problèmes informatiques, mais plutôt une équipe qui s’intègre à l’entreprise pour développer des solutions agiles, intelligentes et adaptatives qui répondent à nos besoins. Pour cette raison, nous continuerons de travailler avec CODE3 pour que l’informatique ne soit plus une limite, mais un tremplin vers le futur.
+            p(style='text-align: right; font-style: italic; padding-top: 10px;') Marie-Frédérique Savard. Directrice générale, Plandaction
+            h2(style='margin-top: 1em;') Comment nous procédons
+            p Nos interventions peuvent prendre plusieurs formes. Voici quelques exemples :
+            p Activités sur place :
+            ul
+              li Ateliers de sécurité;
+              li Analyse de besoin;
+              li Étude sur place des TI existantes.
+            p Rédaction d’études
+            ul
+              li Plan de continuité;
+              li Plan d’amélioration des TI;
+              li Études technologiques dans le cadre d’un projet.
+            p Interventions logicielles
+            ul
+              li Déploiement de logiciels;
+              li Adaptation de logiciels;
+              li Prototypage;
+              li Migration de services en infonuagique;
+              li Mise en place de processus de sauvegarde;
+              li Mise en place de mesures de sécurité.
+            p Parmis les technologies maîtrisées par CODE3, nous avons :
+            ul
+              li Amazon AWS / Eucalyptus, Heroku dans l’infonuagique;
+              li Drupal, WordPress, MediaWiki, Nagios, Jenkins dans les projets libres;
+              li Système de réclamations.

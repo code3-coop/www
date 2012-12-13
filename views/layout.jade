@@ -2,6 +2,77 @@ doctype 5
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+    link(rel='stylesheet', href='/DeepFocus/style.css', type='text/css', media='screen')
+    link(rel='stylesheet', href='/DeepFocus/css/extensions.css', type='text/css', media='screen')
+    //if lt IE 7
+      link(rel='stylesheet', type='text/css', href='/DeepFocus/css/ie6style.css')
+      script(type='text/javascript', src='/DeepFocus/js/DD_belatedPNG_0.0.8a-min.js')
+      script(type='text/javascript')
+        DD_belatedPNG.fix('img#logo, #search-form, #featured, span.date, .footer-widget ul li, span.overlay, a.readmore, a.readmore span, #recent-posts a#left-arrow, #recent-posts a#right-arrow, h4#recent, div#breadcrumbs, #sidebar h4');
+    //if IE 7
+      link(rel='stylesheet', type='text/css', href='/DeepFocus/css/ie7style.css')
+    //if IE 8
+      link(rel='stylesheet', type='text/css', href='/DeepFocus/css/ie8style.css')
+    link(rel='stylesheet', href='/DeepFocus/style-Noise.css', type='text/css', media='screen')
+    link#et-shortcodes-css-css(rel='stylesheet', href='/DeepFocus/epanel/shortcodes/shortcodes.css?ver=2.0', type='text/css', media='all')
+    link#fancybox-css(rel='stylesheet', href='/DeepFocus/epanel/page_templates/js/fancybox/jquery.fancybox-1.3.4.css', type='text/css', media='screen')
+    link#et_page_templates-css(rel='stylesheet', href='/DeepFocus/epanel/page_templates/page_templates.css', type='text/css', media='screen')
+    style(type='text/css')
+      div.pp_default .pp_content_container .pp_details { color: #666; }
+    != css('app')
+  body#home-featured.home.blog.logged-in.admin-bar.chrome
+    #top
+      .container
+        #header
+          a(href='/')
+            img#logo(src='/images/path37652.png', alt='CODE3')
+          #menu.clearfix
+            ul#primary.nav
+              li.current_page_item
+                a(href='/') Accueil
+              li.page_item.page-item-978
+                a(href='/services') Services
+                ul.children
+                  li.page_item.page-item-1071
+                    a(href='/services/sherpas') Sherpas technologiques
+                  li.page_item.page-item-1172
+                    a(href='/services/conseil') Conseillers en TI
+                  li.page_item.page-item-1114
+                    a(href='/services/developpement') Développement coopératif
+              li.page_item.page-item-60
+                a(href='/clients') Nos clients
+              li.page_item.page-item-724
+                a(href='/philosophie') Notre philosophie
+              li.page_item.page-item-39
+                a(href='/membres') Nos membres
+              li.page_item.page-item-961
+                a(href='/contact') Nous joindre
     block content
+    #footer
+      #footer-wrapper
+        #footer-center
+          .container
+            p(style='padding: 0 0 3em 8em; color: white; background: url(/images/code3_logo_80x83.png) no-repeat;')
+              b CODE3 Coopérative de solidarité
+              br
+              | 307-353 rue Saint-Nicolas
+              br
+              | Montréal QC  H2Y 2P1
+              br
+              a(href='mailto:info@code3.ca') info@code3.ca
+              br
+              | +1 514 775-7061
+    script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')
+    script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js')
+    script(type='text/javascript', src='/DeepFocus/epanel/shortcodes/js/et_shortcodes_frontend.js')
+    script(type='text/javascript', src='/DeepFocus/js/jquery.cycle.all.min.js')
+    script(type='text/javascript', src='/DeepFocus/js/jquery.easing.1.3.js')
+    script(type='text/javascript', src='/DeepFocus/js/superfish.js')
+    script(type='text/javascript', src='/DeepFocus/js/cufon-yui.js')
+    script(type='text/javascript', src='/DeepFocus/js/colaborate_thin.js')
+    script(type='text/javascript', src='/DeepFocus/js/scrollTo.js')
+    script(type='text/javascript', src='/DeepFocus/js/serialScroll.js')
+    script(type='text/javascript', src='/DeepFocus/js/custom.js')
+    script(type='text/javascript', src='/DeepFocus/epanel/page_templates/js/fancybox/jquery.easing-1.3.pack.js')
+    script(type='text/javascript', src='/DeepFocus/epanel/page_templates/js/fancybox/jquery.fancybox-1.3.4.pack.js')
+    script(type='text/javascript', src='/DeepFocus/epanel/page_templates/js/et-ptemplates-frontend.js)

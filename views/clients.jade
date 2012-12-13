@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  #content-full
+    #hr
+      #hr-center
+        #intro
+          .center-highlight
+            .container
+              #breadcrumbs
+                a(href='/') Accueil
+                span.raquo  » 
+                | Nos clients
+    .center-highlight
+      .container
+        #full.clearfix
+          .entry.clearfix.post.full
+              h1.title
+                  cufon.cufon.cufon-canvas(alt='Nos ', style='width: 61px; height: 36px;')
+                    canvas(width='101', height='40')
+                    cufontext Nos 
+                  cufon.cufon.cufon-canvas(alt='clients', style='width: 81px; height: 36px;')
+                    canvas(width='115', height='40')
+                    cufontext clients
+                p Nous sommes fiers de compter ces organismes parmi nos clients.
+                p Notre collaboration avec ces derniers est très stimulante et leur entière satisfaction est notre première préoccupation dans tous les mandats que nous entreprenons avec eux.
+                p
+                  span#more-60
+                .one_third
+                  img.aligncenter(style='margin-bottom: 50px;', src='/images/farciq.png', alt='')
+                  img.aligncenter(style='margin-bottom: 50px;', src='/images/plandaction.png', alt='')
+                  img.aligncenter(style='margin-bottom: 50px; padding: 15px 0;', src='/images/acquisio.png', alt='')
+                  img.aligncenter(style='margin-bottom: 50px;', src='/images/barreau.png', alt='')
+                .one_third
+                  img.aligncenter(style='margin-bottom: 50px;', src='/images/fdanew.png', alt='')
+                  img.aligncenter(style='margin-bottom: 50px;', src='/images/oaq.png', alt='')
+                  img.aligncenter(style='margin-bottom: 50px;', src='/images/jtq.png', alt='')
+                  img.aligncenter(style='margin-bottom: 50px; padding: 10px 0;', src='/images/caisse_economie_solidaire.png', alt='')
+                .one_third.last
+                  img.aligncenter(style='margin-bottom: 50px;', src='/images/farpbq.png', alt='')
+                  img.aligncenter(style='margin-bottom: 50px; padding: 10px 0;', src='/images/mcgill.png', alt='')
+                  img.aligncenter(style='margin-bottom: 50px;', src='/images/cgi.png', alt='')
+                .clear
+

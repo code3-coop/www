@@ -1,0 +1,50 @@
+extends layout
+
+block content
+  #content-full
+    #hr
+      #hr-center
+        #intro
+          .center-highlight
+            .container
+              #breadcrumbs
+                a(href='/') Accueil
+                span.raquo  » 
+                a(href='/services') Services
+                span.raquo  » 
+                | Conseillers en TI
+    .center-highlight
+      .container
+        #full.clearfix
+          .entry.clearfix.post.full
+            h1.title
+                cufon.cufon.cufon-canvas(alt='Développement ', style='width: 216px; height: 36px;')
+                  canvas(width='255', height='40')
+                  cufontext Développement 
+                cufon.cufon.cufon-canvas(alt='coopératif', style='width: 129px; height: 36px;')
+                  canvas(width='169', height='40')
+                  cufontext coopératif
+              .clear
+              .one_half
+                p CODE3 se spécialise dans le développement coopératif de logiciels. Notre solution de développement coopératif consiste en la mise en commun des ressources de plusieurs entreprises, dans la création commune d’une solution qui sera adaptée pour chacun. Il s’agit d’une méthode novatrice permettant de partager les coûts monétaires et en temps d’experts de domaine tout en obtenant une solution parfaitement adaptée.
+                h2(style='margin-top: 1em;') Bénéfices pour l’entreprise
+                p Les solutions logicielles sont habituellement séparées en deux types : les solutions achetées préfaites et les solutions développées sur mesure. Dans le premier cas, l’entreprise se retrouve avec un logiciel qui n’est pas conçu pour ses besoins spécifiques. Elle est donc contrainte à adapter ses processus internes au logiciel acheté. Dans le cas d’un logiciel fait sur mesure, l’entreprise s’expose à des risques non négligeables en terme de temps et d’argent.
+                p Le développement coopératif offre une troisième option qui est particulièrement avantageuse pour les entreprises oeuvrant dans des domaines similaires mais n’étant pas en compétition. En développant en mode coopératif, les entreprises impliquées obtiennent un logiciel adapté à leurs besoins tout en déboursant une fraction des coûts. Les entreprises conservent le contrôle sur leur logiciel : il est toujours possible de partager les modifications apportées par un participant, ou bien de faire sa propre branche spécialisée du logiciel. Cette méthode de travail permet aussi d’obtenir l’apport d’experts d’entreprises connexes et de la communauté se développant autour du logiciel conçu.
+              .one_half.last
+                p(style='position: relative;')
+                  img.polaroid.absolute.transform3(src='/images/iStock_000014186302Medium_253x253.jpg', alt='')
+                  img.polaroid.absolute.transform4(src='/images/iStock_000006715814Medium_253x253.jpg', alt='')
+              .clear
+              div(style='margin-top: 40px;')
+                .et_quote.quote-center(style='font-size: 20px; line-height: 1.3em; padding-left: 35px; background: url(http://code3.ca/wp-content/themes/DeepFocus/images/quote-left.png) no-repeat !important;')
+                  | Enfin, une équipe de technologies de l’information résolument tournée vers les besoins du client. CODE3 nous a livré en temps et sans surprise de coûts une solution créative véritablement arrimée à nos besoins opérationnels évolutifs. Un franc succès que plusieurs autres institutions financières ont par la suite bien adaptée à leurs réalités propres. Même le service post implantation mérite un 10/10.
+              p(style='text-align: right; font-style: italic; padding-top: 10px;') Me René Langlois. Directeur général, FARPBQ
+              h2(style='margin-top: 1em;') Comment nous procédons
+              p Dans le cadre d’un développement coopératif d’applications, CODE3 agit comme chef d’orchestre principal du code source. Cependant, chaque entreprise participante aura aussi une copie locale du code source afin de toujours demeurer en contrôle de sa branche du logiciel.
+              p
+                | Les logiciels développés de cette manière seront préférablement placés sous une license à nature libre, au choix des entreprises impliquées. CODE3 distribue habituellement ses logiciels sous la
+                a(href='http://www.gnu.org/licenses/gpl-3.0.html', onclick='javascript:_gaq.push([\'_trackEvent\',\'outbound-article\',\'http://www.gnu.org\']);') licence GPLv3
+                | . CODE3 encourage et supporte le développement de logiciels libres.
+              p
+                b Pourquoi le logiciel libre?
+                | Parce qu’un logiciel non-libre est un peu comme une voiture dont on ne peut ouvrir le capot : il est impossible de modifier le logiciel, de l’adapter ou même de le réparer. De plus, une ouverture du code offre une meilleure transparence, ce qui permet d’auditer facilement le fonctionnement du logiciel et de s’assurer de sa sécurité et de sa fiabilité.
