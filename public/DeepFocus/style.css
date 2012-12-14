@@ -118,7 +118,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 		#hr-center { background: url(images/shadow-bar-centerbg.png) no-repeat bottom center; }
 	
 #portfolio-items { padding-bottom: 20px; }
-	#portfolio-items .item { position: relative; background: url(images/item-bottom-shadow.png) no-repeat bottom left; padding-bottom: 5px; float: left; margin: 0px 33px 32px 0px; }
+	#portfolio-items .item { position: relative; background: url(images/item-bottom-shadow.png) no-repeat bottom left; padding-bottom: 5px; float: left; margin: 0px 27px 27px 0px; }
 	#portfolio-items .last {margin-right: 0px;}
 	.item-image { position:relative; top:0; }
 		#portfolio-items .item img.portfolio { border: 3px solid #e5e5e5; }
@@ -235,7 +235,7 @@ ul.nav { float: left; padding: 20px 0px 0px 4px; }
 					#slides .description a.readmore span { background: url(images/featured-readmore.png) no-repeat; display: block; height: 35px; line-height: 32px; padding: 0px 12px 0px 20px; }
 				#slides .description a.readmore:hover { color: #eeeeee; }
 			
-	#controllers-wrapper { position: absolute; bottom: 11px; left: 380px; background: url(images/featured-controllers-left.png) no-repeat; height: 44px; padding-left: 12px; z-index:30; }
+	#controllers-wrapper { position: absolute; bottom: 11px; left: 380px; background: url(images/featured-controllers-left.png) no-repeat; height: 44px; padding-left: 11px; z-index:30; }
 		#controllers-wrapper #controllers { background: url(images/featured-controllers-bg.png) repeat-x; height: 30px; padding-top: 14px; }
 		#controllers-wrapper #controllers, #controllers-wrapper #controllers-right { float: left; }
 		#controllers-wrapper #controllers-right { background: url(images/featured-controllers-right.png) no-repeat; height: 44px; width: 8px; }
